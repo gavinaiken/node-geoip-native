@@ -133,7 +133,6 @@ function find(ipl) {
 (function() {
 
     var fs = require("fs");
-    var sys = require("sys");
     var stream = fs.createReadStream(__dirname + "/GeoIPCountryWhois.csv");
     var buffer = "";
 
